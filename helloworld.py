@@ -10,6 +10,11 @@ def tip(bill):
     print "With tip: %f" % bill
     return bill
     
+"""
+En  maate aa kommentere
+"""
+#En annen maate aa kommentere
+
 meal_cost = int(raw_input("How much did the meal cost? \n"))
 meal_with_tax = tax(meal_cost)
 meal_with_tip = tip(meal_with_tax)
